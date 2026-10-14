@@ -1,0 +1,36 @@
+# ---- NEVER commit these: they contain private data ----
+# account keys / passphrases
+account_keys.json
+*passphrase*.json
+captured_key.txt
+*.key
+.key
+
+# decrypted or encrypted WeChat databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# exports of real chats
+archive/
+exports/
+out/
+output/
+
+# local self-test data
+selftest/
+*.html
+*.xlsx
+
+# local paths / config
+*.local.json
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+desktop.ini
